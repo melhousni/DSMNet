@@ -45,7 +45,7 @@ python train_ec.py Vaihingen
 !(/images/refinement_output.png)
 
 
-<img src="/images/refinement_output.png" width="300" height="300"/>
+<img src="/images/refinement_output.png" width="700" height="800"/>
 
 
 
