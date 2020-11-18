@@ -44,8 +44,9 @@ To train your own MTL prediction network, use:
 For example, to train the MTL prediction network on the DFC2018 dataset, use :    
 python train_mtl.py DFC2018   
   
-
+<p align="center">
 <img src="/images/mtl_output.png" width="500" height="400"/>  
+</p>
 
 To train your own refinement network, first you'll need a checkpoint for the MT prediction network, then you can use:  
 **python train_ec.py [dataset]**    
@@ -53,7 +54,9 @@ For example, to train the refinement network on the Vaihingen dataset, use :
 python train_ec.py Vaihingen   
   
 
-<img src="/images/refinement_output.png" width="500" height="400"/>
+<p align="center">
+<img src="/images/refinement_output.png" width="500" height="400"/> 
+</p>
 
 ## Citation
 If you find our work useful in your research, please consider citing:
