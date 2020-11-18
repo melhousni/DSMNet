@@ -8,6 +8,7 @@ Both datasets can be download here. The data was organized and seperated into ti
 Our checkpoints can be found here.  
 
 When unzipping the datasets and checkpoints, make sure to respect the following folder structure :  
+  
 root  
 -datasets  
 --DFC2018  
@@ -24,7 +25,7 @@ root
 --Vaihingen  
 
 Next step is to use the test_dsm.py script to test the prediction and refinement networks by using :  
-python test_dsm.py [dataset] [refinement_flag]  
+**python test_dsm.py [dataset] [refinement_flag]**  
 For example, to test the results of the prediction and refinement networks combined on the DFC2018 dataset, use :  
 python test_dsm.py DFC2018 True  
 To test the results of the prediction network onlys combined on the Vaihingen dataset, use :  
