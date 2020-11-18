@@ -1,9 +1,12 @@
-# DSMNet
+## DSMNet
 This repo contains the code and files necessary to reproduce the results published in our paper 'Height Prediction and Refinement from Aerial Images with Semantic and Geometric Guidance'. Our method relies on a two stage pipeline : First, a multi-task network is used to predict the height, semantic labels and surface normals of an input RGB aerial image. Next, we use a denoising autoencoder to refine our height prediction in order to produce higher quality height maps.
 
 ![](/images/fullnet.png)
 
-# Reproduce our results
+## Network
+### Prerequisites  
+
+### Testing
 Both datasets can be download here. The data was organized and seperated into tiles to speed up the training process. No further pre-processing was done.  
 Our checkpoints can be found here.  
 
@@ -32,7 +35,7 @@ To test the results of the prediction network onlys combined on the Vaihingen da
 python test_dsm.py Vaihingen False  
 The output files will be saved to the /output folder.  
 
-# Train your own network
+### Training
 To train your own MTL prediction network, use:  
 **python train_mtl.py [dataset]**  
 For example, to train the MTL prediction network on the DFC2018 dataset, use :    
@@ -46,6 +49,16 @@ For example, to train therefinement network on the Vaihingen dataset, use :
 python train_ec.py Vaihingen   
 
 <img src="/images/refinement_output.png" width="500" height="400"/>
+
+### Citation
+If you find our work useful in your research, please consider citing:
+
+    @inproceedings{du2020dh3d,
+        title={DH3D: Deep Hierarchical 3D Descriptors for Robust Large-Scale 6DoF Relocalization},
+        author={Du, Juan and Wang, Rui and Cremers, Daniel},
+        booktitle={European Conference on Computer Vision (ECCV)},
+        year={2020}
+    }
 
 
 
