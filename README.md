@@ -53,7 +53,7 @@ python train_ec.py Vaihingen
 
 <img src="/images/refinement_output.png" width="500" height="400"/>
 
-### Citation
+## Citation
 If you find our work useful in your research, please consider citing:
 
 
