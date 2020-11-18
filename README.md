@@ -49,7 +49,7 @@ python train_mtl.py DFC2018
 
 To train your own refinement network, first you'll need a checkpoint for the MT prediction network, then you can use:  
 **python train_ec.py [dataset]**    
-For example, to train therefinement network on the Vaihingen dataset, use :    
+For example, to train the refinement network on the Vaihingen dataset, use :    
 python train_ec.py Vaihingen   
   
 
