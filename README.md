@@ -53,12 +53,5 @@ python train_ec.py Vaihingen
 ### Citation
 If you find our work useful in your research, please consider citing:
 
-    @inproceedings{du2020dh3d,
-        title={DH3D: Deep Hierarchical 3D Descriptors for Robust Large-Scale 6DoF Relocalization},
-        author={Du, Juan and Wang, Rui and Cremers, Daniel},
-        booktitle={European Conference on Computer Vision (ECCV)},
-        year={2020}
-    }
-
 
 
