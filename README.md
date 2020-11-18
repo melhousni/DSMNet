@@ -30,6 +30,7 @@ For example, to test the results of the prediction and refinement networks combi
 python test_dsm.py DFC2018 True  
 To test the results of the prediction network onlys combined on the Vaihingen dataset, use :  
 python test_dsm.py Vaihingen False  
+The output files will be saved to the /output folder.  
 
 # Train your own network
 
