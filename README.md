@@ -4,15 +4,18 @@ This repo contains the code and files necessary to reproduce the results publish
 ![](/images/fullnet.png)
 
 ## Network
-### Prerequisites  
+### Prerequisites
+
+* Python 3.5
+* Tensorflow 2.1 (with Cuda 10.0)
+* Numpy 1.18.4
 
 ### Testing
-Both datasets can be download here. The data was organized and seperated into tiles to speed up the training process. No further pre-processing was done.  
-Our checkpoints can be found here.  
+Both datasets can be download [here](https://drive.google.com/file/d/1llKA6z5L6CBQA5Fyr92d0Alj9TjhpYWb/view?usp=sharing). The data was organized and seperated into tiles to speed up the training process. No further pre-processing was done. Our checkpoints can be found [here](https://drive.google.com/file/d/1DkMmK1zvypZjqZ9GsIWqtdAO0ocEnTOQ/view?usp=sharing).  
 
 When unzipping the datasets and checkpoints, make sure to respect the following folder structure :  
   
-root  
+/   
 -datasets  
 --DFC2018  
 ---RGB  
@@ -27,7 +30,7 @@ root
 --DFC2018  
 --Vaihingen  
 
-Next step is to use the test_dsm.py script to test the prediction and refinement networks by using :  
+Next, use the test_dsm.py script to test the height prediction and refinement networks by using :  
 **python test_dsm.py [dataset] [refinement_flag]**  
 For example, to test the results of the prediction and refinement networks combined on the DFC2018 dataset, use :  
 python test_dsm.py DFC2018 True  
