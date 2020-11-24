@@ -61,5 +61,14 @@ python train_ec.py Vaihingen
 ## Citation
 If you find our work useful in your research, please consider citing:
 
+@misc{mahdi2020height,
+      title={Height Prediction and Refinement from Aerial Images with Semantic and Geometric Guidance}, 
+      author={Elhousni Mahdi and Huang Xinming and Zhang Ziming},
+      year={2020},
+      eprint={2011.10697},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+
 
 
