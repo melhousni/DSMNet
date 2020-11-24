@@ -130,6 +130,10 @@ for tile in range(tilesLen):
   tile_time = end - start
   total_time+= tile_time
   print("Tile time : " + str(tile_time))
+  
+  filename=val_rgb[tile].split('/')[-1].split('.')[0]
+  pred = Image.fromarray(pred)
+  pred.save('./output/'+datasetName+'/'+filename+'.tif')
 
 print("Final MSE loss  : " + str(total_mse/tilesLen))
 print("Final MAE loss  : " + str(total_mae/tilesLen))
