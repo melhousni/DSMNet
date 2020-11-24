@@ -1,7 +1,24 @@
 ## DSMNet
+
+# About
 This repo contains the code and files necessary to reproduce the results published in our paper 'Height Prediction and Refinement from Aerial Images with Semantic and Geometric Guidance'. Our method relies on a two stage pipeline : First, a multi-task network is used to predict the height, semantic labels and surface normals of an input RGB aerial image. Next, we use a denoising autoencoder to refine our height prediction in order to produce higher quality height maps. Training and testing is conducted on two publicly available datasets : The ISPRS Vaihingen and the IEEE DFC2018.
 
 ![](/images/fullnet.png)
+
+# Citation
+If you find our work useful in your research, please consider citing:
+
+```
+@misc{mahdi2020height,
+      title={Height Prediction and Refinement from Aerial Images with Semantic and Geometric Guidance}, 
+      author={Elhousni Mahdi and Huang Xinming and Zhang Ziming},
+      year={2020},
+      eprint={2011.10697},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+
+```
 
 ## Network
 ### Prerequisites
@@ -58,17 +75,6 @@ python train_ec.py Vaihingen
 <img src="/images/refinement_output.png" width="500" height="400"/> 
 </p>
 
-## Citation
-If you find our work useful in your research, please consider citing:
-
-@misc{mahdi2020height,
-      title={Height Prediction and Refinement from Aerial Images with Semantic and Geometric Guidance}, 
-      author={Elhousni Mahdi and Huang Xinming and Zhang Ziming},
-      year={2020},
-      eprint={2011.10697},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
 
 
 
