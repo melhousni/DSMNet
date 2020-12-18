@@ -6,7 +6,7 @@ This repo contains the code and files necessary to reproduce the results publish
 ![](/images/fullnet.png)
 
 ### Citation
-If you find our work useful in your research, please consider citing:
+If you find our work useful in your research, please consider citing our [paper](https://arxiv.org/pdf/2011.10697.pdf):
 
 ```
 @misc{mahdi2020height,
